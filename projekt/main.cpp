@@ -14,9 +14,14 @@ int main()
     if( a != 0 )
     {
         cout << "Funkcja f(x) przyjmuje wartosc=0 dla x=" <<( - b ) / a << endl;
-    } else cout << "Funkcja f(x) nie posiada rozwiazania." << endl;
+    }
+    else
+    {
+        cout << "wyraz wolny staje sie nasza funkcja liniowa i przyjmuje postac y=" << b <<endl;
+    }
 
 
-    getch();
+
+   getch();
     return( 0 );
 }
